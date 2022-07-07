@@ -1,0 +1,17 @@
+.tab-btn-container{
+    display: flex;
+    align-items: center;
+    background-color: #555;
+    color: #fff;
+    li{
+        cursor: pointer;
+        padding: 5px 10px;
+        transition: background-color .3s linear;
+        &:hover{
+            background-color: #888;
+        }
+        &.selected{
+            background-color: #777;
+        }
+    }
+}
